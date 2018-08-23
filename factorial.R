@@ -10,7 +10,7 @@ fct <- function(n){
 
 fact <- function(n){
   z = 1
-  if (n>1) z = n * fct(n-1)
+  if (n>1) z = n * fact(n-1)
   return(z)
 }
 
